@@ -1,0 +1,586 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+/* base styles /////////*/
+
+
+ul {
+    padding-left: 0;
+}
+
+
+h1,
+h2 {
+    
+    font-size: 20px;
+    text-align: center;
+
+
+}
+
+body {
+    
+    
+    font-size: 20px;
+    text-align: center;
+    
+    }
+ main {
+        
+        width: 90%;
+        
+        text-align: center;
+    }
+
+  .main-nav a:hover{
+      color: red;
+  }  
+
+
+  .bottom-link a:hover {
+    color:red;
+  }
+
+  
+
+ .text {
+     color:black;
+ }
+
+ a {
+    text-decoration: none;
+    color: black;
+
+ }
+
+
+/* class selectors  //////*/
+
+.main-nav
+{
+    display: block;
+    background-color: white;
+    text-align: center;
+    line-height: 2rem;
+    
+}
+
+.main-nav  {
+    text-align: center;
+    list-style: none;
+
+}
+
+.SK
+
+{
+text-align: center;
+padding-top: 10%;
+padding-bottom: 10%;
+
+}
+
+
+
+
+.bottom-name {
+    float: left;
+
+}
+
+.bottom-link {
+    float: right;
+
+}
+
+.group::after{
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+
+.person {
+    padding: 20px 50px;
+
+}
+
+.footer {
+   
+    font-size: 20px;
+    text-align: center;
+    
+
+}
+#contact-form{
+padding-top: 5%;
+
+
+}
+
+
+.image {
+    width: 90%;
+    padding: 20px;
+
+}
+
+.main-image{
+   max-width: 100%;
+
+ }
+
+.contact-form,h2{
+    
+    font-size: 20px;
+    text-align: center;
+
+
+}
+ p { 
+
+font-size: 20px;
+text-align: center;
+
+ }
+ .footer-name {
+    font-weight: bold;
+    float: left;
+    margin-top: 0;
+    font-size: 0.75em
+ }
+
+ footer li:first-child {
+    float: right;
+    font-size: 0.75em;
+    list-style-type: none
+}
+
+footer li:nth-child(2),
+footer li:nth-child(3),
+footer li:nth-child(4) {
+    display: none;
+}
+
+
+
+
+
+
+/* Media Queries  //////*/
+
+
+@media (min-width:768px){
+
+
+    .marketing,
+    .travel,
+    .photo{
+        float: left;
+        width: 50%;
+        text-align: center;
+    }
+
+
+    .search,
+    .map,
+    .calculator
+     {
+         width: 50%;
+         float: right;
+     }
+
+     .bio{
+        display:inline-block;
+        text-align: center;
+        max-width: 46%;
+        padding-left: 1em;
+        padding-top: 5%;
+        padding-bottom: 5%;
+
+
+
+
+
+     }
+
+
+     .SK{
+     padding-top: 5%;
+     padding-bottom: 3%;
+    
+     }
+
+     .para{
+
+        padding-top: 3%;
+        padding-bottom: 3%;
+     }
+
+    
+
+
+.para{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+    .main-image{
+
+        max-width: 50%;
+        float: right;
+        padding-bottom: 5%;
+        padding-right: 1.5em;
+        padding-top: 10%;
+
+     }
+
+     ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        
+      }
+      
+      li {
+        float: right;
+      }
+      
+      li a {
+        display: block;
+        
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        padding-bottom: 5%;
+        padding-top: 1.5em;
+      }
+      
+      
+      li a:hover {
+        background-color: red;
+      }
+      
+      .my-name{
+
+        float: left;
+        padding-bottom: 5%;
+        padding-top: 1.5em;
+        padding-left: 5%;
+
+      }
+      
+      .contact-text{
+
+      padding-left: 10%;
+      padding-right: 10%;
+      }
+
+
+    
+
+    .footer-name,
+    footer li {
+        font-size: 0.875em;
+    }
+
+    .footer-nav {
+        float: right;
+        padding: 0;
+    }
+
+    .footer-name {
+        margin: 16px auto;
+        padding: 10px;
+    }
+
+    footer li:first-child {
+        display: none;
+    }
+
+    footer li:nth-child(2),
+    footer li:nth-child(3),
+    footer li:nth-child(4) {
+        display: inline-block;
+        padding: 10px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      @media (min-width:1024px){
+
+      .top{
+
+        max-width:33% ;
+        
+
+      }
+
+
+.bottom{
+max-width: 33%;
+
+}
+
+.bio{
+
+    text-align: left;
+    max-width: 60%;
+    padding-top: 7%;
+}
+
+.marketing,
+    .travel,
+    .photo{
+        
+        text-align: center;
+        padding-left: 5%;
+       
+    }
+
+
+    .search,
+    .map,
+    .calculator
+     {
+        text-align: center;
+        padding-left: 5%;
+        
+     }
+
+
+
+
+
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
