@@ -28,12 +28,7 @@ body {
     text-align: center;
     
     }
- main {
-        
-        width: 90%;
-        
-        text-align: center;
-    }
+
 
   .main-nav a:hover{
       color: red;
@@ -182,7 +177,8 @@ footer li:nth-child(4) {
     .photo{
         float: left;
         width: 50%;
-        text-align: center;
+        margin: auto;
+        vertical-align: top;
     }
 
 
@@ -192,6 +188,8 @@ footer li:nth-child(4) {
      {
          width: 50%;
          float: right;
+         margin: auto;
+         vertical-align: top;
      }
 
      .bio{
